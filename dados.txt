@@ -1,5 +1,5 @@
-Cor = Azul --> 01456c
-font-family (stack): Abel, Arial, Tahoma, sans-serif
+COR FONTES E FUNDOS
+Azul --> 01456c
 
 LINK PARA A FONTE
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -7,4 +7,4 @@ LINK PARA A FONTE
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
 COMO CHAMAR A FONTE
-font-family: 'Abel', sans-serif;
+font-family: 'Abel', Arial, Tahoma, sans-serif;

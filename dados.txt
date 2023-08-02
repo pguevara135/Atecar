@@ -1,1 +1,10 @@
 Cor = Azul --> 01456c
+font-family (stack): Abel, Arial, Tahoma, sans-serif
+
+LINK PARA A FONTE
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+COMO CHAMAR A FONTE
+font-family: 'Abel', sans-serif;

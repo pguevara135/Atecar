@@ -34,7 +34,6 @@ header {
 figure {
     max-width: 200px;
     padding: 1%;
-    background-color: aqua;
 }
 
 img {
@@ -54,7 +53,6 @@ ul {
     width: 30%;
     list-style: none;
     display: flex;
-    background-color: green;
     font-size: 1.2em;
 }
 

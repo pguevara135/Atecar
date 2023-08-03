@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+}
+header {
+    background-color: #01456c;
+}
+
+.contato {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.1em;
+    color: #01456c;
+    font-weight: bolder;
+    line-height: 1rem;
+}
+
+.logo {
+    width: 100%;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure {
+    max-width: 200px;
+    padding: 1%;
+    background-color: aqua;
+}
+
+img {
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding-bottom: 4%;
+}
+
+figcaption {
+    color: white;
+    font-size: 0.85em;
+    text-align: center;
+    margin-top: 4%;
+}
+
+ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    background-color: green;
+    font-size: 1.2em;
+}
+
+li {
+    padding: 1%;
+    margin: 0.5%;
+}
+
+li:hover {
+    background-color: #fe1e12;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

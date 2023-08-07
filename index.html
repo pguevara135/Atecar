@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_atecar.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <title>Atecar - Associação dos trabalhadores de Campinas e Região</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,10 +16,21 @@
             Contato - Márcia (19) 9 7154 - 7634 | Paulo Cesar (19) 9 9972 - 7408  | <e-mail>e-mail: comercial@atecarfretados.com.br</e-mail>
         </div>
         <div class="logo">
-            <figure>
-                <img src="logo_atecar.png" alt="Logo Atecar">
-                <figcaption>Associação dos Trabalhadores e Executivos de Campinas e Região</figcaption>
-            </figure>
+            <div id="figura">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="logo_atecar-P.png" type="image/png">
+                    <source media="(max-width: 1050px)" srcset="logo_atecar-M.png" type="image/png">
+                    <img src="logo_atecar.png" alt="Logo Atecar">
+                    <!-- <figcaption>Associação dos Trabalhadores e Executivos de Campinas e Região</figcaption> -->
+                </picture>
+            </div>
+            <div id="nome">
+                <h1>Associacao dos trabalhadores Executivos de Campinas e Região</h1>
+            </div>
+            
+            </div>
+        </div>
+        <div class="sobre">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Linha</a></li>
@@ -24,7 +39,26 @@
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Circular</a></li>
             </ul>
-        </div>
     </header>
+    <main>
+        <h1>Empresa especializada no transporte contínuo e individual</h1>
+        <p>
+            Fazemos o transporte de trabalhadores moradores em Campinas e Região, Jundiaí, Sorocaba e Baixada Santista que precisam ir até São Paulo.<br>
+            Em São Paulo atendemos as regiões:
+            <ul>
+                <li>Metrô Barra Funda</li>
+                <li>Metrô Sumaré</li>
+                <li>Metrô Armênia</li>
+                <li>Av. Dos Estados</li>
+                <li>Metrô Tatuapé</li>
+                <li>USP</li>
+                <li>Av Engenheiro Luís Carlos Berrini</li>
+                <li>Terminal João Dias</li>
+            </ul>
+        </p>
+        <p>
+            Trabalhamos em parceria com a Viação Cometa uma Empresa conceituada no ramo de transportes, oferecendo conforto, qualidade e agilidade.
+        </p>
+    </main>
 </body>
 </html>

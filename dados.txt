@@ -9,3 +9,35 @@ LINK PARA A FONTE
 
 COMO CHAMAR A FONTE
 font-family: 'Abel', Arial, Tahoma, sans-serif;
+
+<header id="header"> 
+    <div class="contato">
+        Contato - Márcia (19) 9 7154 - 7634 | Paulo Cesar (19) 9 9972 - 7408  | <e-mail>e-mail: comercial@atecarfretados.com.br</e-mail>
+    </div>
+    <div class="logo">
+        <a href="#">
+            <div id="figura">
+                <picture>
+                    <img id="imagemLogo" src="logo_atecar-P.png" alt="Logo Atecar">
+                    <figcaption>Associação dos Trabalhadores e Executivos de Campinas e Região</figcaption> 
+                </picture>
+            </div>
+        </a>
+        <div id="nome">
+            <h1>Associacao dos trabalhadores Executivos de Campinas e Região</h1>
+        </div>
+        
+        </div>
+    </div>
+    <nav class="nav">
+        <input type="checkbox" name="" id="checkbox" class="checkbox">
+        <label for="checkbox" id="label-menu">Menu<span class="hamburguer "></span></Menu></label>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Linha</a></li>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Circular</a></li>
+        </ul>
+    </nav>

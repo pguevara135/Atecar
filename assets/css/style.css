@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    list-style: none;
 }
 
 body {
@@ -120,6 +120,27 @@ footer {
     margin: auto;
     padding: 1.2rem;
     color: whitesmoke;
+}
+
+.dados {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: start;
+    font-size: 1rem;
+}
+
+.dados li {
+    padding: .2rem;
+}
+
+.material-symbols-outlined {
+    font-size: 1rem;
+}
+
+.elemento_dados {
+    align-items: center;
+    padding: .2rem;
 }
 
 @media (max-width: 1150px) {

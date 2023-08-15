@@ -16,6 +16,7 @@ body {
     margin: auto;
     background-color: var(--color-red);
     font-size: 1.2rem;
+    z-index: -1;
 }
 
 a {
@@ -23,18 +24,36 @@ a {
     text-decoration: none;
 }
 
-header {
+.header {
+    width: 90vw;
+    margin: auto;
     background-color: var(--color-blue);
     color: var(--color-white);
     padding-bottom: 1.5rem;
 }
 
 .contato {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
     background-color: var(--color-white);
     text-align: center;
     color: var(--color-blue);
     font-weight: 600;
     padding: 0.5rem;
+}
+
+#redes_sociais {
+    text-align: right;
+}
+
+#redes_sociais img {
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .nav-bar {
@@ -110,14 +129,18 @@ article p {
 /* * CONFIGURACAO DO FOOTER */
 
 footer {
-    width: 100%;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
     background-color: var(--color-blue);
-    z-index: 1;
+    z-index: 2;
 }
 
 .rodape {
     width: 90vw;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
     padding: 1.2rem;
     color: whitesmoke;
 }
@@ -126,7 +149,6 @@ footer {
     display: flex;
     width: 20%;
     flex-direction: column;
-    align-items: start;
     font-size: 1rem;
 }
 
@@ -141,6 +163,15 @@ footer {
 .elemento_dados {
     align-items: center;
     padding: .2rem;
+}
+
+.redes_sociais {
+    flex-direction: column;
+}
+
+.redes_sociais img {
+    width: 20px;
+    font-size: .5rem;   
 }
 
 @media (max-width: 1150px) {

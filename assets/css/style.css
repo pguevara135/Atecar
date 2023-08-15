@@ -111,7 +111,7 @@ a {
 main {
     width: 90vw;
     margin: auto;
-    padding: 1.5rem;
+    padding: 1%;
     background-color: var(--color-white);
 }
 
@@ -140,29 +140,24 @@ article p {
 #gallery_container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 5vw;
-    padding: 0 1vw;
+    gap: 1%;
 }
 
 .gallery-itens {
-    width: 200px;
-    height: 200px;
-    gap: 2%;
+    width: 136px;
     border: 10px solid rgba(1, 69, 108, 0.067);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
 }
 
 .gallery-itens img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     margin-bottom: 8%;
 }
 
-
 #descricao {
     padding-left: 1%;
+    color: var(--color-blue);
     border: 2px solid rebeccapurple;
 }
 
@@ -211,6 +206,26 @@ footer {
 .redes_sociais img {
     width: 20px;
     font-size: .5rem;   
+}
+
+/* ! CODIGO DE TESTE */
+
+.teste {
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+    border: 2px solid salmon;
+    margin-bottom: 150px;
+}
+
+.teste figure {
+    color: var(--color-blue);
+    border: 5px solid greenyellow
+}
+
+.teste figcaption {
+    padding-left: 2%;
+    border: 2px solid violet;
 }
 
 @media (max-width: 1150px) {

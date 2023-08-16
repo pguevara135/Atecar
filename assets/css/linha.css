@@ -6,20 +6,28 @@
   font-weight: bold;
   line-height: 2.2rem;
   box-shadow: 5px 5px 5px rgba(1, 69, 108, 0.781);
+  border-radius: 20PX;
 }
+
+#itnerario {
+  display: flex;
+  gap: 1%;
+}
+
 table {
-    border-collapse: collapse;
-    font-size: 1rem;
+  width: 50%;
+  border-collapse: collapse;
+  font-size: 1rem;
 }
 
 caption {
-    font-size: 1.5rem;
-    padding: 8px;
-    font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 8px;
+  font-weight: bolder;
 }
 
 td,th {
   border: 2px solid #01456c;
   text-align: left;
-  padding: 2px 5px;
+  padding: 5px 5px;
 }

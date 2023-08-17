@@ -159,7 +159,7 @@ article p {
 }
 
 .gallery-itens {
-    width: 136px;
+    width: 250px;
     border: 10px solid rgba(1, 69, 108, 0.067);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
 }

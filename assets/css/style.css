@@ -100,6 +100,19 @@ a {
     flex-grow: 2;
 }
 
+/* ! MENU */
+
+#burguer {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    display: none;
+    background-color: hotpink;
+}
+
 .menu {
     width: 90vw;
     margin: auto;
@@ -109,12 +122,25 @@ a {
 }
 
 .nav-item a {
+    display: block;
     padding: 1rem;
     border-radius: 5px;
 }
 
 .nav-item a:hover {
     background-color: var(--color-red);
+}
+
+.mobilemenu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobilemenu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
 }
 
 main {
@@ -222,26 +248,6 @@ footer {
     font-size: .5rem;   
 }
 
-/* ! CODIGO DE TESTE */
-
-.teste {
-    display: flex;
-    gap: 1%;
-    flex-wrap: wrap;
-    border: 2px solid salmon;
-    margin-bottom: 150px;
-}
-
-.teste figure {
-    color: var(--color-blue);
-    border: 5px solid greenyellow
-}
-
-.teste figcaption {
-    padding-left: 2%;
-    border: 2px solid violet;
-}
-
 @media (max-width: 1150px) {
     .empresa {
         font-size: 0.9rem;
@@ -249,6 +255,10 @@ footer {
 }
 
 @media (max-width: 950px) {
+    #burguer {
+        display: block;
+    }
+
     .nav-bar {
         justify-content: center;
     }
@@ -262,6 +272,26 @@ footer {
         width: 100%;
         font-size: 0.7rem;
         text-align: center;
+    }
+
+    #navList {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top:  44vh;
+        right: 4vh;
+        width: 90vw;
+        height: 92vh;
+        background-color: var(--color-blue);
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .nav-item a {
+        display: block;
     }
 
     main {

@@ -267,12 +267,13 @@ footer {
 
     #navList {
         display: none;
+        position: relative;
     }
 
     .menu {
         position: absolute;
-        top:  44vh;
-        right: 4vh;
+        top:  0;
+        right: 0;
         width: 90vw;
         height: 40vh;
         background-color: var(--color-blue);

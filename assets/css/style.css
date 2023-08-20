@@ -33,6 +33,10 @@ a {
     padding-left: 10%;
 }
 
+.pdtp {
+    padding-top: 0.5rem;
+}
+
 header {
     width: 95vw;
     margin: auto;

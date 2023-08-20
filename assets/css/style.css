@@ -282,6 +282,9 @@ footer {
         justify-content: space-around;
     }
     
+    .nav-item {
+        border-bottom: 2px solid rgba(0, 115, 182, 0.336);
+    }
     .nav-item a {
         display: block;
     }

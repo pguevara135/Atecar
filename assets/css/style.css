@@ -2,8 +2,8 @@
     --color-white: #fff;
     --color-blue: #01456c;
     --color-red: #fe1e12;
-    --color-Mobigo1: RGB(101, 77, 226)
-    --color-Mobigo2: RGB(170, 85, 255)
+    --color-purple: #654de2; /*RGB(101, 77, 226) */
+    --color-fundo: #aa55ff; /*RGB(170, 85, 255) */
 }
 
 * {
@@ -247,7 +247,7 @@ footer {
 }
 
 .rodape {
-    width: 90vw;
+    width: 95vw;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

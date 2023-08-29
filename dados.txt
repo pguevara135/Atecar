@@ -1,6 +1,8 @@
 COR FONTES E FUNDOS
 Azul --> 01456c
 Vermelho --> fe1e12
+Roxo MobiGo --> RGB(170, 85, 255)
+Roxo MObiGo2 --> RGB(101, 77, 226)
 
 LINK PARA A FONTE
 <link rel="preconnect" href="https://fonts.googleapis.com">

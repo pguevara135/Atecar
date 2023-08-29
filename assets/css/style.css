@@ -39,6 +39,10 @@ a {
     padding-top: 0.5rem;
 }
 
+figure {
+    z-index: 1;
+}
+
 header {
     width: 95vw;
     margin: auto;

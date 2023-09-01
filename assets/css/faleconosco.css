@@ -32,6 +32,12 @@ hr {
     margin-bottom: 1.5rem;
 }
 
+.fone {
+    font-size: 1.5rem;
+    margin: 0.3rem 0 0 0.4rem;
+    padding: 0;
+}
+
 .negrito {
     font-size: 1.3rem;
 }

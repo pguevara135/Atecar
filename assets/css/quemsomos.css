@@ -13,11 +13,83 @@ h1 {
     color: var(--color-blue);
 }
 
-p {
+#quemsomos p {
     line-height: 2.5rem;
     text-align: justify;
     text-indent: 2rem;
     font-size: 1.6rem;
     margin: 2rem;
     color: var(--color-blue);
+}
+
+#cidades {
+    color: var(--color-red);
+    font-size: 1.6rem;
+    margin-left: 5rem;
+}
+
+#cidades li {
+    padding: 0.7rem;
+    list-style: square;
+    font-weight: 700;
+}
+
+#pilares {
+    box-sizing: border-box;
+    padding: 1.5REM;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-evenly;
+    color: var(--color-blue);
+}
+
+.missao {
+    box-sizing: border-box;
+    text-align: center;
+    width: 30rem;
+    color: var(--color-blue);
+}
+
+.missao h2 {
+    font-size: 2.0rem;
+}
+
+.missao p {
+    margin: 1.5rem;
+    font-weight: 400;
+}
+
+.pilares-icon {
+    width: 100%;
+    font-weight: 500;
+    font-size: 10rem;
+    margin-bottom: 2rem;
+    color: var(--color-blue);
+    /* border: 2px solid black; */
+}
+
+.valores {
+    text-align: center;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.valores-descricao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 1.2rem;
+}
+
+.valores-descricao h3 {
+    font-size: 1.3rem;
+    color: var(--color-red);
+    margin: 0.8rem;
+}
+
+.prestatividade {
+    width: 40%;
+    margin: 2rem;
 }

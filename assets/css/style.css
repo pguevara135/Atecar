@@ -39,8 +39,13 @@ a {
     padding-top: 0.5rem;
 }
 
-figure {
-    z-index: 1;
+.construction {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color-red);
+    font-weight: bolder;
+    line-height: 10rem;
+    border: 5px solid salmon;
 }
 
 header {

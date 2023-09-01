@@ -1,0 +1,23 @@
+:root {
+    --color-white: #fff;
+    --color-blue: #01456c;
+    --color-red: #fe1e12;
+    --color-purple: #654de2; /*RGB(101, 77, 226) */
+    --color-fundo: #aa55ff; /*RGB(170, 85, 255) */
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 2.6rem;
+    color: var(--color-blue);
+}
+
+p {
+    line-height: 2.5rem;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: 1.6rem;
+    margin: 2rem;
+    color: var(--color-blue);
+}

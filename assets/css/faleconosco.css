@@ -1,0 +1,26 @@
+:root {
+    --color-white: #fff;
+    --color-blue: #01456c;
+    --color-red: #fe1e12;
+    --color-purple: #654de2; /*RGB(101, 77, 226) */
+    --color-fundo: #aa55ff; /*RGB(170, 85, 255) */
+}
+
+#faleconosco {
+    text-align: center;
+    color: var(--color-blue);
+}
+
+.marcia, .pc {
+    margin: 2rem;
+    line-height: 2.5rem;
+}
+
+.marcia h2, .pc h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.negrito {
+    font-size: 1.3rem;
+}

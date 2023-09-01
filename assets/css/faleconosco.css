@@ -11,6 +11,17 @@
     color: var(--color-blue);
 }
 
+#faleconosco h1 {
+    margin: 3rem;
+    font-size: 2.8rem;
+    text-decoration: underline;
+    padding-top: 2rem;
+}
+
+hr {
+    border-top: 5px solid rgba(254, 30, 18, 0.432);
+}
+
 .marcia, .pc {
     margin: 2rem;
     line-height: 2.5rem;

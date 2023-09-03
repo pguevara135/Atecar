@@ -16,9 +16,9 @@
 body {
     font-family: 'Abel', Arial, Tahoma, sans-serif;
     margin: auto;
-    background-color: var(--color-red);
+    /* background-color: var(--color-red); */
+    background: linear-gradient(to left, var(--color-blue), var(--color-red));
     font-size: 1.2rem;
-    padding-bottom: 2rem;
 }
 
 a {
@@ -47,13 +47,20 @@ a {
     line-height: 10rem;
 }
 
+.container {
+    max-width: 1100px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 header {
-    width: 95vw;
+    width: 100%;
     margin: auto;
 }
 
 .header {
-    width: 95vw;
+    width: 100%;
     margin: auto;
     background-color: var(--color-blue);
     color: var(--color-white);
@@ -63,7 +70,7 @@ header {
 }
 
 .contato {
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -77,7 +84,7 @@ header {
 }
 
 #telefone {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #redes_sociais {
@@ -117,7 +124,7 @@ header {
 }
 
 .empresa  h2{
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 
@@ -143,7 +150,7 @@ header {
 }
 
 #menu {
-    width: 90vw;
+    width: 100%;
     height: auto;
     margin: auto;
     display: flex;
@@ -162,7 +169,7 @@ header {
 }
 
 main {
-    width: 95vw;
+    width: 100%;
     margin: auto;
     padding: 1rem;
     text-align: justify;
@@ -250,7 +257,7 @@ article p {
 /* * CONFIGURACAO DO FOOTER */
 
 footer {
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
     padding: 0;
     margin-top: 12rem;
@@ -260,7 +267,7 @@ footer {
 }
 
 .rodape {
-    width: 95vw;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

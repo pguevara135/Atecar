@@ -6,11 +6,13 @@
     --color-fundo: #aa55ff; /*RGB(170, 85, 255) */
 }
 
-h1 {
+#quemsomos h1 {
     text-align: center;
+    font-weight: bolder;
     margin: 2rem;
     font-size: 2.6rem;
     color: var(--color-blue);
+    text-shadow: 3px 3px 6px var(--color-blue);
 }
 
 #quemsomos p {
